@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="I-UX-Compatible" content="IE=edge">
         <title>Prodca</title>
-        <link rel="stylesheet" href="homepage.css">
-        <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.min.css">  
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet"type="text/css"  href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.min.css">  
         <link rel="stylesheet" type="text/css" href="file:///C:/Users/HOME/Desktop/Appy/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     </head>
     <body>
         <div class="background-1">
@@ -36,6 +37,7 @@
                 </div>
             </nav>
             <section class="container section-1 text-center">
+                
                 <div>
                  <h3>episode 09: how to create web page using bootstrap 4</h3>
                  <p>By Mac Smith | 16 September 2017 | 1:30:20</p>
@@ -229,10 +231,22 @@
         </footer>
         
 
-
-
+       
+          </script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script src="js/jquery-3.6.0.js"></script>
         <script src="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>
         <script src="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.min.js"> </script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                renderBullet: function (index, className) {
+                  return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
+              },
+            });
+        </script>
     </body>
 </html>
