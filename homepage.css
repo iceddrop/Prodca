@@ -327,7 +327,7 @@ footer{
         width: 450px;
     }
 }
-@media only screen and (min-width:1200px) and (max-width:1441px){
+@media only screen and (min-width:1200px) and (max-width:1750px){
     .background-1{
         background-image: url(./images/headphone-g3d936c282_1280.jpg);
         width: 100%;
@@ -389,7 +389,7 @@ footer{
         margin-left:9px;
     }
 }
-@media only screen and (min-width:1560px) and (max-width:3000px){
+@media only screen and (min-width:1800px) and (max-width:3000px){
     .background-1{
         background-size: cover;
     }
