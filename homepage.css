@@ -14,9 +14,8 @@ nav a{
 .background-1{
     background-image: url(./images/headphone-g3d936c282_1280.jpg);
     width: 100%;
-    height: 1000px;
-    padding-bottom: 0px;
-    background-repeat: no-repeat;
+    height: 850px;
+    background-repeat:no-repeat;
 }
 .section-1{
     position: relative;
@@ -39,7 +38,7 @@ nav a{
     padding: 15px 15px 15px 15px;
 }
 .audio-1{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .section-2{
     padding-top: 50px;
@@ -63,7 +62,7 @@ nav a{
 .section-2 .paragraph-2{
     text-align: start;
     font-size: 13px;
-    color: hsl(0,0%,80%);
+    color: hsl(211, 12%, 48%);
 }
 .audio-2{
     width: 200px;
@@ -73,6 +72,23 @@ nav a{
 .card{
     margin-left: 25px;
 }
+.swiper-pagination-bullet {
+    padding-top:7px;
+    width: 40px!important;
+    height: 40px!important;
+    text-align: center;
+    line-height: 20px;
+    font-size: 22px;
+    color: #000;
+    opacity: 1;
+    background: transparent;
+  }
+
+  .swiper-pagination-bullet-active {
+    color: orangered;
+    background: transparent!important;
+    border:solid 2px orangered;
+  }
 .section-3{
     padding-bottom: 80px;
 }
@@ -100,20 +116,23 @@ nav a{
     border-style: solid;
     color: hsl(0,0%,100%);
     height: 45px;
+    padding-left:10px;
 }
 .btn-2{
+    position: relative;
+    bottom:2px;
+    height: 45px;
     border-style: none;
     color: white;
     font-size: 12px;
     transform: translateX(-5px);
-    margin-bottom: 5px;
     background-color: tomato;
     border-radius: 2px;
     padding:13px 13px 13px 13px ;
 }
 footer{
     background-color: hsl(0,0%,30%);
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 70px;
 }
 .div-1 h6{
@@ -135,7 +154,6 @@ footer{
 .div-3 a{
     font-size: 13px;
     color: hsl(0,0%,60%);
-    padding-left: 13px;
 }
 .div-3 a:focus{
     color: white;
@@ -185,13 +203,16 @@ footer{
     border-radius: 2px;
     border-color: hsl(0,0%,75%);
     height: 45px;
+    padding-left:10px;
 }
 .btn-3{
+    position:relative;
+    bottom:2px;
+    height: 47px;
     border-style: none;
     color: white;
     font-size: 12px;
     transform: translateX(-5px);
-    margin-bottom: 10px;
     background-color: tomato;
     border-radius: 2px;
     padding:13px 13px 13px 13px ;
@@ -199,6 +220,14 @@ footer{
 .bottom{
     color:hsl(0,0%,75%);
     margin-top: 100px;
+}
+@media only screen and (min-width:319px) and (max-width:426px){
+    .image-2{
+        margin-bottom:20px;
+    }
+    .podcast-info{
+        margin-left:15px;
+    }
 }
 @media only screen and (min-width:481px) and  (max-width:768px){
     .card{
@@ -297,13 +326,12 @@ footer{
 @media only screen and (min-width:1200px) and (max-width:1441px){
     .background-1{
         background-image: url(./images/headphone-g3d936c282_1280.jpg);
-        max-width: 100%;
         width: 100%;
-        height: 1200px;
-        background-repeat: no-repeat;
+        height: 850px;
+        background-size:cover;
     }
     .card{
-        margin-left: 200px;
+        margin-left: 300px;
         width: 850px;
         padding-bottom: 0px;
     }
@@ -352,5 +380,67 @@ footer{
     }
     .div-8 input{
         width: 450px;
+    }
+    .div-3 a{
+        margin-left:9px;
+    }
+}
+@media only screen and (min-width:2559px) and (max-width:3000px){
+    .background-1{
+        background-size: cover;
+    }
+    .card{
+        margin-left: 850px;
+        width: 850px;
+        padding-bottom: 0px;
+    }
+    .card-img-top{
+        object-fit: cover;
+        width: 350px !important;
+        height: 400px !important;
+    }
+    .card-horizontal{
+        display: flex;
+        flex:1 1 auto;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .paragraph-1{
+        font-size: 14px!important;
+    }
+    .paragraph-2{
+        font-size: 20px!important;
+    }
+    .audio-2{
+       width: 350px;
+    }
+    .section-3{
+        padding-left: 115px!important;
+        padding-right: 140px!important;
+    }
+    .image-2{
+        width: 420px;
+        height:420px ;
+    }
+    .space{
+        transform: translateY(-15px);
+    }
+    .section-4 p{
+        padding-left: 360px;
+        padding-right: 360px;
+    }
+    footer{
+        padding-left:75px!important;
+        padding-right: 75px!important;
+    }
+    video{
+        width: 500px;
+    }
+    .div-8 input{
+        width: 450px;
+    }
+    .div-3 a{
+        margin-left:9px;
     }
 }
