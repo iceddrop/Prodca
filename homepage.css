@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Dancing+Script:wght@500&family=Didact+Gothic&family=Kanit&family=Oswald&family=Play&family=Roboto&family=Saira:wght@700&family=Spline+Sans&display=swap');
 nav{
     color: white;
 }
 nav a{
     color: black;
+}
+nav li a{
+    font-family:oswald;
 }
 .background-2{
     background-color: white;
@@ -385,7 +389,7 @@ footer{
         margin-left:9px;
     }
 }
-@media only screen and (min-width:2559px) and (max-width:3000px){
+@media only screen and (min-width:1800px) and (max-width:3000px){
     .background-1{
         background-size: cover;
     }
