@@ -389,7 +389,7 @@ footer{
         margin-left:9px;
     }
 }
-@media only screen and (min-width:1800px) and (max-width:3000px){
+@media only screen and (min-width:1560px) and (max-width:3000px){
     .background-1{
         background-size: cover;
     }
