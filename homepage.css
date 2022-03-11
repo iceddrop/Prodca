@@ -389,7 +389,58 @@ footer{
         margin-left:9px;
     }
 }
-@media only screen and (min-width:1800px) and (max-width:3000px){
+@media only screen and (min-width:1919px) and (max-width:1921px){
+    .background-1{
+        background-size: cover;
+    }
+    .card{
+        margin-left: 500px;
+        width: 850px;
+        padding-bottom: 0px;
+    }
+    .card-img-top{
+        object-fit: cover;
+        width: 350px !important;
+        height: 400px !important;
+    }
+    .card-horizontal{
+        display: flex;
+        flex:1 1 auto;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .paragraph-1{
+        font-size: 14px!important;
+    }
+    .paragraph-2{
+        font-size: 20px!important;
+    }
+    .audio-2{
+       width: 350px;
+    }
+    .section-3{
+        padding-left: 115px!important;
+        padding-right: 140px!important;
+    }
+    .image-2{
+        width: 420px;
+        height:420px ;
+    }
+    .space{
+        transform: translateY(-15px);
+    }
+    .div-3 a{
+        margin-left:9px;
+    }
+    video{
+        width: 500px;
+    }
+    .div-8 input{
+        width: 450px;
+    }
+}    
+@media only screen and (min-width:2000px) and (max-width:3000px){
     .background-1{
         background-size: cover;
     }
